@@ -1,7 +1,7 @@
-/* K2P-USB */
+/* FBI */
 
-#define BOARD_PID		"K2P-USB"
-#define BOARD_NAME		"K2P-USB"
+#define BOARD_PID		"FBI"
+#define BOARD_NAME		"FBI"
 #define BOARD_DESC		"PHICOMM K2P Wireless Router"
 #define BOARD_VENDOR_NAME	"PHICOMM"
 #define BOARD_VENDOR_URL	"http://www.phicomm.com/"
