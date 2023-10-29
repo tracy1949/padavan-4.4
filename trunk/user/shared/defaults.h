@@ -25,7 +25,7 @@
 #define SYS_EXEC_PATH_OPT	"/opt/sbin:/opt/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 #define SYS_HOME_PATH_ROOT	"/home/admin"
 
-#define SYS_USER_ROOT		""
+#define SYS_USER_ROOT		"admin"
 #define SYS_GROUP_ROOT		"root"
 #define SYS_USER_NOBODY		"nobody"
 #define SYS_GROUP_NOGROUP	"nogroup"
@@ -37,10 +37,10 @@
 
 #define DEF_WLAN_2G_CC		"CN"
 #define DEF_WLAN_5G_CC		"US"
-#define DEF_WLAN_2G_SSID	BOARD_PID "FBI"
-#define DEF_WLAN_5G_SSID	BOARD_PID "FBI_5G"
-#define DEF_WLAN_2G_GSSID	BOARD_PID "FBI_GUEST"
-#define DEF_WLAN_5G_GSSID	BOARD_PID "FBI_GUEST_5G"
+#define DEF_WLAN_2G_SSID	BOARD_PID ""
+#define DEF_WLAN_5G_SSID	BOARD_PID "_5G"
+#define DEF_WLAN_2G_GSSID	BOARD_PID "_GUEST"
+#define DEF_WLAN_5G_GSSID	BOARD_PID "_GUEST_5G"
 #define DEF_WLAN_2G_PSK		"........"
 #define DEF_WLAN_5G_PSK		"........"
 
